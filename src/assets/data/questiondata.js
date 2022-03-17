@@ -57,7 +57,7 @@ export const QuestionData = [
     },
     {
         id:8,
-        title:"",
+        title:"sn 질문",
         answer1:"S", // S
         answer2:"N", // N
         type:"SN",
