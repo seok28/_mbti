@@ -50,9 +50,9 @@ export const QuestionData = [
     },
     {
         id:7,
-        title:"",
-        answer1:"S", // S
-        answer2:"N", // N
+        title:"노래를 들을 때 더 좋아하는것은?",
+        answer1:"멜로디", // S
+        answer2:"가사", // N
         type:"SN",
     },
     {
