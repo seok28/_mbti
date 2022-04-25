@@ -78,9 +78,9 @@ export const QuestionData = [
     },
     {
         id:11,
-        title:"",
-        answer1:"T", // T
-        answer2:"F", // F
+        title:"친한 친구가 시험에 떨어졌다 나의 반응은? ",
+        answer1:"무슨 시험인데? 몇점 맞았어?", // T
+        answer2:"괜찮아.. 다음에는 꼭 붙을거야!", // F
         type:"TF",
 
     },
