@@ -15,7 +15,7 @@ return (
     <Contents>
     <Title> fonts: EF_Diary </Title>
     <LogoImage>
-        <img src={PangImage} className="rounded-circle" width ={350} height ={350}></img>
+        <img alt= "메인 사진"  src={PangImage} className="rounded-circle" width ={350} height ={350}></img>
     </LogoImage>
     <Desc>MBTI 검사 프젝</Desc>
     <Button onClick={클릭핸들러}> 검사하기 </Button>
