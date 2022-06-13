@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import PangImage from '../assets/ccc.jpg';
@@ -7,10 +7,18 @@ import {ResultData} from '../assets/data/resultdata';
 
 let numbers = 1;
 const Result = () => {
-    
     const navigage = useNavigate();
-    
-    
+    const[searchParams] = useSearchParams();
+    const mbti = searchParams.get('mbti');
+    const [resultData , setResultData] = React.useState({});
+    // 최종 도출 mbti 객체 
+    React.useEffect(() => {
+        const result = ResultData.find((s) => s.best === mbti);
+        setResultData(result);
+
+    },[mbti])
+    console.log(mbti);
+    console.log(resultData);
     return (<Wrapper>
         <Header> MBTI Result </Header>
         <Contents>
@@ -18,7 +26,7 @@ const Result = () => {
         <LogoImage>
             <img src={PangImage} className="rounded-circle" width ={350} height ={350}></img>
         </LogoImage>
-        <Desc> 사용자님의 mbti 결과는 {ResultData[0].name}입니다 </Desc>
+        <Desc> 사용자님의 mbti 결과는 {resultData.name}입니다 </Desc>
         <Button onClick={() => {navigage('/')}}> 검사 다시하기 </Button>
         </Contents>
         </Wrapper>
