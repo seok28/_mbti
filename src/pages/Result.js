@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import PangImage from '../assets/ccc.jpg';
 import {ResultData} from '../assets/data/resultdata';
+import KakaoShareButton from '../component/Kakao';
+// import { ButtonGroup } from 'react-bootstrap';
 
 const Result = () => {
     const navigage = useNavigate();
@@ -26,7 +28,10 @@ const Result = () => {
             <img alt = "메인 사진" src={PangImage} className="rounded-circle" width ={350} height ={350}></img>
         </LogoImage>
         <Desc> 사용자님의 mbti 결과는 {resultData.name}입니다 </Desc>
+        <ButtonGroup>
         <Button onClick={() => {navigage('/')}}> 검사 다시하기 </Button>
+        <KakaoShareButton> 카카오톡 공유하기 </KakaoShareButton>
+        </ButtonGroup>
         </Contents>
         </Wrapper>
     )
@@ -69,4 +74,10 @@ const Desc = styled.div`
  font-size: 20pt;
  margin-top: 50px;
  font-family: "EF_Diary";
+`
+
+const ButtonGroup =styled.div `
+display: flex;
+flex-direction: row;
+
 `

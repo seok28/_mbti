@@ -1,13 +1,13 @@
 export const ResultData = [
     {
         id:1,
-        name:'아이엔에프피',
+        name:'INFP',
         best:'INFP',
         desc:' 잔다르크형'
     },
     {
         id:2,
-        name:'이에스티제이',
+        name:'ESTJ',
         best:'ESTJ',
         desc:'반대'
     }
