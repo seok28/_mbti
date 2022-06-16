@@ -29,16 +29,16 @@ export const QuestionData = [
     },
     {
         id:4,
-        title:"",
-        answer1:"E", // E
-        answer2:"I", // I
+        title:"날씨가 정말 좋은 오후 내가 정말 듣고 싶은 노래는 ? ",
+        answer1:"정말 신이나는 댄스 곡", // E
+        answer2:"나에게 심적 안정를 심어줄 잔잔한 어쿠스틱 곡", // I
         type:"EI",
     },
     {
         id:5,
-        title:"",
-        answer1:"E", // E
-        answer2:"I", // I
+        title:"동아리 활동이나 단체 생활을 할 때 당신은 어떤 타입인가요?",
+        answer1:"활발하고 적극적이라는 말을 많이 듣는편입니다.", // E
+        answer2:"자신의 의견이나 감정을 표현하는데 있어서 종종 어려움을 겪습니다.", // I
         type:"EI",
     },
     {

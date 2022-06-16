@@ -29,7 +29,7 @@ const Result = () => {
         </LogoImage>
         <Desc> 사용자님의 mbti 결과는 {resultData.name}입니다 </Desc>
         <ButtonGroup>
-        <Button onClick={() => {navigage('/')}}> 검사 다시하기 </Button>
+        <Button onClick={() => {navigage('/question')}}> 검사 다시하기 </Button>
         <KakaoShareButton> 카카오톡 공유하기 </KakaoShareButton>
         </ButtonGroup>
         </Contents>
