@@ -43,9 +43,9 @@ export const QuestionData = [
     },
     {
         id:6,
-        title:"",
-        answer1:"S", // S
-        answer2:"N", // N
+        title:"사과하면 떠오르는것은 ?",
+        answer1:"빨갛다 , 맛있다", // S
+        answer2:"애플회사, 뉴턴", // N
         type:"SN",
     },
     {
