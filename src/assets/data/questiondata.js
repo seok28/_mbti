@@ -86,7 +86,7 @@ export const QuestionData = [
     },
     {
         id:12,
-        title:"",
+        title:"TF 질문지",
         answer1:"T", // T
         answer2:"F", // F
         type:"TF",
