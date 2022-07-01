@@ -23,7 +23,7 @@
 |:---|:---:|
 |Home.js| 홈페이지|
 |Question.js| 질문페이지|
-|Result.js| 결과페이지|
+|Result.js| 결과페이지 |
 
 ### 폴더구조(component)
 |폴더 |내용|
