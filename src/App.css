@@ -1,5 +1,6 @@
 .App{
     font-family: "EF_Diary";
+    white-space: pre-line;
 }
 
 @font-face {
