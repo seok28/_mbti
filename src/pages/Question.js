@@ -32,7 +32,7 @@ const Question = () => {
             // mbti 도출
             const mbti = newScore.reduce(
                 (acc , curr) => 
-                acc + (curr.score >= 2 ? curr.id.substring(0,1) : curr.id.substring(1,2)),
+                acc + (curr.score >= 3 ? curr.id.substring(0,1) : curr.id.substring(1,2)),
                 ""
             );
             // console.log('mbti',mbti);

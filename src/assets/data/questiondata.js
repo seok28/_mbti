@@ -148,3 +148,5 @@ export const QuestionData = [
         type:"JP",
     },
 ]
+
+// 각 유형별 질문 5개씩 useEffect 사용해 mbti 검출 
