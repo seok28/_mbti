@@ -86,9 +86,9 @@ export const QuestionData = [
     },
     {
         id:12,
-        title:"TF 질문지",
-        answer1:"T", // T
-        answer2:"F", // F
+        title:"친구가 약속시간에 늦었다..",
+        answer1:"타당한 이유가 있으면 마음이 풀린다.", // T
+        answer2:"사과를 하면 마음이 풀린다.", // F
         type:"TF",
     },
     {
