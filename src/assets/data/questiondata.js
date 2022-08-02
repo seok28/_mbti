@@ -57,7 +57,7 @@ export const QuestionData = [
     },
     {
         id:8,
-        title:"과제 제출기한을 놓쳤다... 어떻하지?",
+        title:"과제 제출기한을 놓쳤다... 어떻게 하지??",
         answer1:"아 과제를 못냈어.. 학점이 너무 걱정된다...", // S
         answer2:"왜 하필 과제가 오늘까지 였을까...?", // N
         type:"SN",
@@ -86,65 +86,65 @@ export const QuestionData = [
     },
     {
         id:12,
-        title:"친구가 약속시간에 늦었다..",
-        answer1:"타당한 이유가 있으면 마음이 풀린다.", // T
-        answer2:"사과를 하면 마음이 풀린다.", // F
+        title:"나 돈 모아서 아이패드 샀어! 나의 반응은 ?",
+        answer1:"와 대박! 아이패드 어떤 거 산거야?", // T
+        answer2:"돈 힘들게 모았구나.. 고생 많았어 축하해!", // F
         type:"TF",
     },
     {
         id:13,
-        title:"",
-        answer1:"T", // T
-        answer2:"F", // F
+        title:"내가 약속 시간에 늦었다...",
+        answer1:"사과보다는 어느 과정 때문에 늦었다는 것이 먼저", // T
+        answer2:"어떻게 늦었는가 보다는 사과의 감정에 먼저 충실함", // F
         type:"TF",
     },
     {
         id:14,
-        title:"",
+        title:"열심히 준비한 면접.. 하지만 잘되지 않았다..",
         answer1:"T", // T
         answer2:"F", // F
         type:"TF",
     },
     {
         id:15,
-        title:"",
-        answer1:"T", // T
-        answer2:"F", // F
+        title:"친구가 시험에 떨어졌다..",
+        answer1:"어떤 시험인데?? 몇점으로 떨어진거야? ", // T
+        answer2:"떨어져서 어떻게 해... 다음에 꼭 붙을거야 ! ", // F
         type:"TF",
     },
     {
         id:16,
-        title:"",
-        answer1:"J", // J
-        answer2:"P", // P
+        title:"자신이 선호하는 루틴 ",
+        answer1:"똑같이 반복되는 일상 선호", // J
+        answer2:"쳇바퀴 같은 인생은 질색하고 매일매일 변화를 선호", // P
         type:"JP",
     },
     {
         id:17,
-        title:"",
-        answer1:"J", // J
-        answer2:"P", // P
+        title:"평소에 자신의 정리정돈 스타일은? ",
+        answer1:"정리 정돈이 평소에 되어 있음", // J
+        answer2:"한번에 몰아서 치우거나 자주 다른 날로 미룸", // P
         type:"JP",
     },
     {
         id:18,
-        title:"",
+        title:"다음주가 시험일 때 나의 반응은 ?",
         answer1:"J", // J
         answer2:"P", // P
         type:"JP",
     },
     {
         id:19,
-        title:"",
-        answer1:"J", // J
-        answer2:"P", // P
+        title:"여행을 계획을 짜는 타입은?",
+        answer1:"첫날부터 마지막 날까지 전체적인 상세한 계획", // J
+        answer2:"전체적인 틀만 짜두고 간단한 계획", // P
         type:"JP",
     },
     {
         id:20,
-        title:"",
-        answer1:"J", // J
-        answer2:"P", // P
+        title:"당신은 과정과 결과 중에 어떤것을 우선시 하시나요?",
+        answer1:"과정보다 완성된 결과를 즐기고 기뻐하는 편 ", // J
+        answer2:"진행되는 과정이 즐거우면 결과가 그리 좋지 않아도 긍정적인 편 ", // P
         type:"JP",
     },
 ]
