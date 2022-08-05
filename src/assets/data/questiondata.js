@@ -101,8 +101,8 @@ export const QuestionData = [
     {
         id:14,
         title:"열심히 준비한 면접.. 하지만 잘되지 않았다..",
-        answer1:"T", // T
-        answer2:"F", // F
+        answer1:"또 기회가 있을거야 다음 면접 준비히자!", // T
+        answer2:"수고했어 다음에는 잘할 수 있을거야! ", // F
         type:"TF",
     },
     {
@@ -129,8 +129,8 @@ export const QuestionData = [
     {
         id:18,
         title:"다음주가 시험일 때 나의 반응은 ?",
-        answer1:"J", // J
-        answer2:"P", // P
+        answer1:"오늘은 이 과목 공부하고 내일은 이 과목 공부해야겠다!", // J
+        answer2:"아직 많이 남았는데?", // P
         type:"JP",
     },
     {
