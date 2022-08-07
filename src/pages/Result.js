@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 // import PangImage from '../assets/ccc.jpg';
 import {ResultData} from '../assets/data/resultdata';
 import KakaoShareButton from '../component/Kakao';
-// import { ButtonGroup } from 'react-bootstrap';
+
 
 const Result = () => {
     const navigate = useNavigate();
@@ -31,8 +31,9 @@ const Result = () => {
         <ButtonGroup>
         <Button onClick={() => {navigate('/')}} style = {{marginRight:"20px"}}> 홈으로 가기 </Button>
         <Button onClick={() => {navigate('/question')}}> 검사 다시하기 </Button>
-        <KakaoShareButton> 카카오톡 공유하기 </KakaoShareButton>
+        <KakaoShareButton> 카카오톡 공유하기 </KakaoShareButton> {<br />} 
         </ButtonGroup>
+        <Desc2>{resultData.desc}</Desc2>
         </Contents>
         </Wrapper>
     )
@@ -73,7 +74,15 @@ const LogoImage = styled.div `
 
 const Desc = styled.div`
  font-size: 20pt;
+ font-weight: bolder;
  margin-top: 50px;
+ font-family: "EF_Diary";
+`
+const Desc2 = styled.div`
+ font-size: 17pt;
+ font-weight: bolder;
+ margin-top: 50px;
+ text-align: center;
  font-family: "EF_Diary";
 `
 
