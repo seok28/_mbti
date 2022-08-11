@@ -21,11 +21,11 @@ const KakaoShareButton = () => {
         objectType: 'feed',
         content: {
           title: 'mbti 검사 결과 ',
-          description: '테스트 예비 결과 입니다',
+          description: '사용자의 mbti에 맞는 고양이는 석준수 입니다',
           imageUrl:
             'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
           link: {
-            mobileWebUrl: 'https://developers.kakao.com',
+            mobileWebUrl: url,
             androidExecutionParams: 'test',
           },
         },
