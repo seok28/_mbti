@@ -4,7 +4,7 @@ const {Kakao} = window;
 
 
 const KakaoShareButton = ({ data }) => {
-    const url = "https://mbtiseok.netlify.app/";
+    const url = "https://catmbti0928.netlify.app";
     const resultUrl = window.location.href;
 
  React.useEffect(() => {
