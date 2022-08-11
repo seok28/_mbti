@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
-// import PangImage from '../assets/ccc.jpg';
 import {ResultData} from '../assets/data/resultdata';
 import KakaoShareButton from '../component/Kakao';
 
@@ -31,7 +30,7 @@ const Result = () => {
         <ButtonGroup>
         <Button onClick={() => {navigate('/')}} style = {{marginRight:"20px"}}> 홈으로 가기 </Button>
         <Button onClick={() => {navigate('/question')}}> 검사 다시하기 </Button>
-        <KakaoShareButton> 카카오톡 공유하기 </KakaoShareButton> {<br />} 
+        <KakaoShareButton> data = {resultData} </KakaoShareButton> {<br />} 
         </ButtonGroup>
         <Desc2>{resultData.desc}</Desc2>
         </Contents>
