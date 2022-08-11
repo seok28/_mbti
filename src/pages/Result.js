@@ -30,7 +30,7 @@ const Result = () => {
         <ButtonGroup>
         <Button onClick={() => {navigate('/')}} style = {{marginRight:"20px"}}> 홈으로 가기 </Button>
         <Button onClick={() => {navigate('/question')}}> 검사 다시하기 </Button>
-        <KakaoShareButton> data = {resultData} </KakaoShareButton> {<br />} 
+        <KakaoShareButton data = {resultData} /> {<br />} 
         </ButtonGroup>
         <Desc2>{resultData.desc}</Desc2>
         </Contents>
