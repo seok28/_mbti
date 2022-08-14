@@ -11,13 +11,13 @@ const Home = () => {
     }
 return (
     <Wrapper>
-    <Header> MBTI </Header>
+    <Header> 고양이 MBTI </Header>
     <Contents>
-    <Title> fonts: EF_Diary </Title>
+    <Title> 나와 성격이 닮은 고양이 종 찾기 </Title>
     <LogoImage>
         <img alt= "메인 사진"  src={PangImage} className="rounded-circle" width ={350} height ={350}></img>
     </LogoImage>
-    <Desc>MBTI 검사 프젝</Desc>
+    <Desc> 밑에 버튼 눌러 시작하기 ! </Desc>
     <Button onClick={클릭핸들러}> 검사하기 </Button>
     </Contents>
     </Wrapper>

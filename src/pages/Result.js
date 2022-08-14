@@ -20,9 +20,9 @@ const Result = () => {
     console.log(mbti);
     console.log(resultData);
     return (<Wrapper>
-        <Header> MBTI Result </Header>
+        <Header> MBTI 결과 </Header>
         <Contents>
-        <Title> 결과 테스트  </Title>
+        <Title> 나와 성격이 비슷한 고양이는 </Title>
         <LogoImage>
             <img alt = "메인 사진" src={resultData.image} className="rounded-circle" width ={350} height ={350}></img>
         </LogoImage>
